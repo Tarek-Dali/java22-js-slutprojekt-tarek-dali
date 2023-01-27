@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image search engine</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <form>
+            <label for="text"> Text </label>
+            <input type="text" id="text">
+            <label for="quantity"> Quantity </label>
+            <input type="number" id="quantity">
+            <label for="size"> Size </label>
+            <select id="size">
+                <option value="w">small</option>
+                <option value="c">medium</option>
+                <option value="b">big</option>
+            </select>
+            <label for="sort"> Sort </label>
+            <select id="sort">
+                <option value="relevance">Relevance</option>
+                <option value="date-posted-desc">Latest uploads</option>
+                <option value="interestingness-desc">Interestingness</option>
+            </select>
+            <button>Search</button>
+        </form>
+    </header>
+
+    <main>
+        <img src="images/jerry.png" id="jerry">
+        <img src="images/tom.png" id="tom">
+        <div id="picturesContainer"></div>
+    </main>
+
+</body>
+
+</html>
