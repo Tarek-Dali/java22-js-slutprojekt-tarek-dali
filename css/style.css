@@ -22,6 +22,7 @@ body {
     width: 90%;
     justify-content: center;
     background: rgba(32, 35, 32, 0.9);
+    color: red;
 }
 
 form {
